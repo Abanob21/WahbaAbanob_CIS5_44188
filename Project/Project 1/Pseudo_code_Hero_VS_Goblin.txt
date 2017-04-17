@@ -1,0 +1,51 @@
+ * File:   main.cpp
+ * author:Abanob Wahba
+ * Created on April 16, 2017, 4:32 AM
+ * Purpose: This game is a battle between 2 character hero and goblin you
+  choose hero or goblin and see successive rounds of fighting till health 
+  of either Hero or Goblin becomes zero or less The computer will give random 
+  skill levels and lives to fighters.
+   //System Libraries
+//Input - Output Library
+//Time for rand
+//Srand to set the seed
+//File I/O
+//Format the output
+//Strings
+//Math functions
+//Name-space under which system libraries exist
+
+     //Execution begins here
+//Declare variables
+//Declare and Initialize boolean variable isRunni to true for executing rounds
+// This is a boolean variable
+// This is a string variable
+// Get user choice 1 for  Hero , 0 for Goblin
+//If user wants to be hero set is_hero to true
+//If user wants to be Goblin set is_hero to false
+//If user enters any other value, Display invalid input and exit returning 1
+// Display Good luck Goblin or Good luck Hero based on initialize user choice
+//beginning of switch
+//the end of the switch
+// Declare and Intialize Hero skills and power parameters to zero
+// Declare and Intialize Goblin skills and power parameters to zero
+//Seed the random function generation with current time
+// Give goblin random health, attack, defence value
+//Give the hero random health, attack, defence value
+//Beginning of the while loop
+// Armor Zone : If hero and goblin attack parameter is less than zero set it to zero
+// Life steal Zone : Assign Hero and Goblin life random  value
+//Display fight started
+//Calculate Hero and Goblin health based on attack, defence, life steal and initial health parameters
+//Calculate Hero and Goblin defence parameter based on defence and attack parameter
+//If Hero defence after Fight is less than zero set it to zero
+//If Goblin defence after fight is less than zero set it to zero
+//Display health, Armor, Attack and Life steal at the end of round
+// If either of Goblin or Hero health is less than or equal to zero after the fight, end the loop by setting isRunni to false
+//If both Goblin and Hero Health is less than or equal to zero after the fight, set TieResult variable as true
+//Increment the counter for number of rounds
+// If match does not finish by Tenth round decide the winner based on health parameter only
+//end of the while loop
+// write out to result.txt the result of the match
+//Using initial user choice display the result whether user won or lost
+//The end of the program. 	
